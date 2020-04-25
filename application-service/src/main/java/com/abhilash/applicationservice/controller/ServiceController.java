@@ -20,4 +20,9 @@ public class ServiceController {
 	public String helloForGatwayService(@RequestHeader("x-location") final String loaction) {
 		return "Hello! I'm for gateway service and I've got a request from loaction: " + loaction;
 	}
+	
+	@RequestMapping("ribbon-request")
+	public String forRibbonClient() {
+		return "I'm for Ribbon client side load balancing, and I'm the instance " + instanceName;
+	}
 }
