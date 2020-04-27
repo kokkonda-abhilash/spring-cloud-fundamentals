@@ -12,6 +12,6 @@ public class LoadBalancedController {
 
 	@GetMapping
 	public String helloFromInstance() {
-		return "Hello from load balanced instance";
+		return "Hello from load balanced instance: " + instance;
 	}
 }
