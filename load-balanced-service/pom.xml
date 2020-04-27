@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.abhilash</groupId>
-	<artifactId>ribbon-app</artifactId>
+	<artifactId>load-balanced-service</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>ribbon-app</name>
+	<name>load-balanced-service</name>
 	<description>Demo project for Spring Boot</description>
 
 	<properties>
@@ -27,14 +27,6 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
-		</dependency>
-<!-- 		<dependency>
-			<groupId>org.springframework.cloud</groupId>
-			<artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
-		</dependency> -->
-		<dependency>
-			<groupId>org.springframework.cloud</groupId>
-			<artifactId>spring-cloud-starter-netflix-ribbon</artifactId>
 		</dependency>
 
 		<dependency>

@@ -13,6 +13,6 @@ public class RibbonClientController {
 
 	@GetMapping
 	public String getServiceDetails() {
-		return this.restTemplate.getForEntity("http://service", String.class).getBody();
+		return this.restTemplate.getForEntity("http://load-balanced-service", String.class).getBody();
 	}
 }
