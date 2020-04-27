@@ -9,7 +9,7 @@ import com.abhilash.configuration.RibbonLoadBalanceConfiguration;
 
 @SpringBootApplication
 /* @EnableDiscoveryClient */
-@RibbonClient(name = "load-balanced-service"/* , configuration = RibbonLoadBalanceConfiguration.class */)
+@RibbonClient(name = "load-balanced-service" , configuration = RibbonLoadBalanceConfiguration.class)
 public class RibbonAppApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(RibbonAppApplication.class, args);
